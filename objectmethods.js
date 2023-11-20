@@ -10,7 +10,7 @@
 //   alert( user.ref.name ); // What's the result? undefined
   // Create a code with three methods, read, sum and multiply
 let calculator = {
-read(a, b) {
+read() {
     this.a = prompt("input a"),
     this.b = prompt("input b")
 },
