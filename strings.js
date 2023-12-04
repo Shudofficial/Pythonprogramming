@@ -15,4 +15,9 @@ function ucFirst(str) {
   alert( checkSpam('buy ViAgRA now') );
   alert( checkSpam('free xxxxx') );
   alert( checkSpam("innocent rabbit") );
-  
+//   We have a cost in the form "$120". That is: the dollar sign goes first, and then the number.
+
+// Create a function extractCurrencyValue(str) that would extract the numeric value from such string and return it.
+function extractCurrencyValue(str) {
+  return +str.slice(1);
+}
